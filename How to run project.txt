@@ -1,0 +1,13 @@
+Terminal 1)
+
+cd "c:\Users\Lenovo\Desktop\AI STOCK SCREENER PROJECT\Stock Screener\fastapi_backend"
+
+
+uvicorn main:app --host 0.0.0.0 --port 8000 --reload
+
+
+Terminal 2)
+
+cd "c:\Users\Lenovo\Desktop\AI STOCK SCREENER PROJECT\Stock Screener\Streamlit_Dashboard"
+
+streamlit run app.py
